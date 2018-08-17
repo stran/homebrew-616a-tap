@@ -9,7 +9,7 @@ class Awscli < Formula
   head "https://github.com/aws/aws-cli.git", :branch => "develop"
 
   bottle do
-    root_url "https://github.com/ajb3ck/homebrew-616a-tap/releases/download/v0.2.0/"
+    root_url "https://github.com/ajb3ck/homebrew-616a-tap/releases/download/v0.2.0"
     cellar :any
     rebuild 1
     sha256 "9f9e303735fbb2bec01fb5960a41bde0bfa230d6e190a3d411e12f1cca3f21b9" => :high_sierra
