@@ -9,10 +9,9 @@ class Awscli < Formula
   head "https://github.com/aws/aws-cli.git", :branch => "develop"
 
   bottle do
-    root_url "https://github.com/ajb3ck/homebrew-616a-tap/releases/download/v0.2.1"
-    cellar :any
-    rebuild 1
-    sha256 "9f9e303735fbb2bec01fb5960a41bde0bfa230d6e190a3d411e12f1cca3f21b9" => :high_sierra
+    root_url "https://github.com/ajb3ck/homebrew-616a-tap/releases/download/v0.3.0"
+    cellar :any_skip_relocation
+    sha256 "a8155c5224df878afc5103b0da0e875df6332b0614921172f5da6a6fc00763ac" => :high_sierra
   end
 
   # Some AWS APIs require TLS1.2, which system Python doesn't have before High
