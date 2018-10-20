@@ -8,6 +8,6 @@ There are some formula in homebrew core which do not update as frequently as I w
 
 # what?
 
-- awscli v1.15.80 [https://github.com/aws/aws-cli] _Updated: 08/17/2018_
+- awscli v1.16.38 [https://github.com/aws/aws-cli] _Updated: 10/19/2018_
 
   `brew install ajb3ck/homebrew-616a-tap/awscli`
